@@ -2,13 +2,18 @@
   "name": "note-taker",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.1",
+    "express-request-id": "^1.4.1",
+    "id": "0.0.0",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "requirer": "0.0.4"
   }
 }
